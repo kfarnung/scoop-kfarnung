@@ -11,8 +11,8 @@
             "pypy3"
         ],
         [
-            "pypyw3.exe",
-            "pypyw3"
+            "pypy3w.exe",
+            "pypy3w"
         ]
     ],
     "checkver": {
