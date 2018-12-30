@@ -7,11 +7,11 @@
     "hash": "72dddb3746a51f7672c77d619c818e27efe899e08ae82762448e50dbfdc2f5f3",
     "bin": [
         [
-            "pypy.exe",
+            "pypy3.exe",
             "pypy3"
         ],
         [
-            "pypyw.exe",
+            "pypyw3.exe",
             "pypyw3"
         ]
     ],
