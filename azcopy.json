@@ -1,0 +1,10 @@
+{
+    "description": "Microsoft AzCopy",
+    "homepage": "https://aka.ms/azcopy",
+    "version": "8.1.0",
+    "license": "Proprietary",
+    "url": "https://azcopy.azureedge.net/azcopy-8-1-0/MicrosoftAzureStorageAzCopy_netcore_x64.msi",
+    "hash": "a84f70851bac44c4f1d977f510744e394f34471e9bd5655782ea4f7551b893af",
+    "extract_dir": "Microsoft SDKs/Azure/AzCopy",
+    "bin": "AzCopy.exe"
+}
