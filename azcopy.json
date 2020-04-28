@@ -1,10 +1,19 @@
 {
-    "description": "Microsoft AzCopy",
+    "description": "Microsoft AzCopy 10",
     "homepage": "https://aka.ms/azcopy",
-    "version": "8.1.0",
-    "license": "Proprietary",
-    "url": "https://azcopy.azureedge.net/azcopy-8-1-0/MicrosoftAzureStorageAzCopy_netcore_x64.msi",
-    "hash": "a84f70851bac44c4f1d977f510744e394f34471e9bd5655782ea4f7551b893af",
-    "extract_dir": "Microsoft SDKs/Azure/AzCopy",
-    "bin": "AzCopy.exe"
+    "version": "10.4.1",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://azcopyvnext.azureedge.net/release20200425/azcopy_windows_amd64_10.4.1.zip",
+            "hash": "385eee92099aae62d9009a196df9cf437010fdb0f6f9211f8f94c75bc070ca30",
+            "extract_dir": "azcopy_windows_amd64_10.4.1"
+        },
+        "32bit": {
+            "url": "https://azcopyvnext.azureedge.net/release20200425/azcopy_windows_386_10.4.1.zip",
+            "hash": "c276b6f8e032641c3c822cc5e4e7032a9d14c557e824c9f8c6585ceb28cce66f",
+            "extract_dir": "azcopy_windows_386_10.4.1"
+        }
+    },
+    "bin": "azcopy.exe"
 }
