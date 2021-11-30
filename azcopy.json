@@ -1,18 +1,18 @@
 {
     "description": "Microsoft AzCopy 10",
     "homepage": "https://aka.ms/azcopy",
-    "version": "10.11.0",
+    "version": "10.13.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://azcopyvnext.azureedge.net/release20210616/azcopy_windows_amd64_10.11.0.zip",
-            "hash": "8ce7f6d30f4ec6d249d9977ba579fa1812dc3120827858426510045658a6dcb1",
-            "extract_dir": "azcopy_windows_amd64_10.11.0"
+            "url": "https://azcopyvnext.azureedge.net/release20211027/azcopy_windows_amd64_10.13.0.zip",
+            "hash": "c16b8b6d1b82143101c694354ba7b1265cdad71c0eb739991906a2c16a1b127a",
+            "extract_dir": "azcopy_windows_amd64_10.13.0"
         },
         "32bit": {
-            "url": "https://azcopyvnext.azureedge.net/release20210616/azcopy_windows_386_10.11.0.zip",
-            "hash": "767cbb5560b4627602add69f0f250b6b39ba08f1beb996a8f875593d35da0861",
-            "extract_dir": "azcopy_windows_386_10.11.0"
+            "url": "https://azcopyvnext.azureedge.net/release20211027/azcopy_windows_386_10.13.0.zip",
+            "hash": "4f9cbc3796602a62a0fcc5efeb12489b448318fb8b6cf1a3e567dfc8ad71fb8b",
+            "extract_dir": "azcopy_windows_386_10.13.0"
         }
     },
     "bin": "azcopy.exe"
